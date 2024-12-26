@@ -3,12 +3,12 @@ $(".girl").click(function() {
 });
 
 $(".headphones").click(function() {
-    $(".dialogue").html(`"My beloved headphones!! I love music. I’ve played the clarinet and guitar! My on-repeat artists are 
+    $(".dialogue").html(`"I love music. I’ve played the clarinet and guitar! My on-repeat artists are 
     <a target="_blank" href="https://www.youtube.com/watch?v=8sgycukafqQ&ab_channel=LinkinPark">Linkin Park</a>, 
     <a target="_blank" href="https://www.youtube.com/watch?v=gGdGFtwCNBE&list=PLKTZHUmUvnmIDAk4eJqGF6vJ3krJvLojU&index=2&ab_channel=TheKillersVEVO">The Killers</a>, 
     <a target="_blank" href="https://www.youtube.com/watch?v=nnvqfucTs0o&ab_channel=KidCudi-Topic">Kid Cudi</a>, 
     <a target="_blank" href="https://www.youtube.com/watch?v=F6VfsJ7LAlE&ab_channel=LIVELOVEASAPVEVO">A$AP Rocky</a>, and 
-    <a target="_blank" href="https://www.youtube.com/watch?v=Gl83mI69nX4&ab_channel=AtlanticRecords">Lupe Fiasco</a>."`);
+    <a target="_blank" href="https://www.youtube.com/watch?v=Gl83mI69nX4&ab_channel=AtlanticRecords">Lupe Fiasco</a>. Currently, my favorite song is "<a target="_blank" href="https://www.youtube.com/watch?v=2s3KNE_9qRU&ab_channel=LyricalMuse-ic">iloveyou</a>" by BETWEEN FRIENDS."`);
 });
 
 $(".laptop").click(function() {
