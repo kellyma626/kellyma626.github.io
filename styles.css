@@ -948,6 +948,22 @@ footer {
         margin-top: 50px;
         margin-bottom: 30px;
     }
+
+    .room-box {
+        border: 0.5 solid #FD6492;
+     }
+     
+     .rounded-box {
+        border: 0.5px solid;
+     }
+     
+     .outer {
+        border: 0.5px solid;
+     }
+     
+     .game {
+        Border: 0.5px solid;
+     }
 }
 
 @media (min-width: 481px) and (max-width: 1200px) {
@@ -1278,4 +1294,20 @@ footer {
      .scratch {
         display: none;
     }
+
+     .room-box {
+        border: 0.5 solid #FD6492;
+     }
+     
+     .rounded-box {
+        border: 0.5px solid;
+     }
+     
+     .outer {
+        border: 0.5px solid;
+     }
+     
+     .game {
+        Border: 0.5px solid;
+     }
  }
