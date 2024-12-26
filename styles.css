@@ -950,19 +950,19 @@ footer {
     }
 
     .room-box {
-        border: 0.5 solid #FD6492;
+        border: 0.75px solid #FD6492;
      }
      
      .rounded-box {
-        border: 0.5px solid;
+        border: 0.75px solid;
      }
      
      .outer {
-        border: 0.5px solid;
+        border: 0.75px solid;
      }
      
      .game {
-        Border: 0.5px solid;
+        Border: 0.75px solid;
      }
 }
 
@@ -1296,18 +1296,18 @@ footer {
     }
 
      .room-box {
-        border: 0.5 solid #FD6492;
+        border: 0.75px solid #FD6492;
      }
      
      .rounded-box {
-        border: 0.5px solid;
+        border: 0.75px solid;
      }
      
      .outer {
-        border: 0.5px solid;
+        border: 0.75px solid;
      }
      
      .game {
-        Border: 0.5px solid;
+        Border: 0.75px solid;
      }
  }
