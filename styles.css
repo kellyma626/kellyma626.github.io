@@ -153,14 +153,14 @@ p {
     font-family: "Georgia", serif;
     font-weight: bold;
     padding-top: 5px;
-    padding-left: 130px;
+    padding-left: 115px;
     padding-bottom: 5px;
 }
 
 .dialogue {
     font-size: 14px;
     font-family: "Noto Sans", system-ui;
-    padding-left: 130px;
+    padding-left: 115px;
     color: #7E6A80;
     font-weight: 400;
     padding-right: 30px;
@@ -168,9 +168,9 @@ p {
 
 .headshot {
     position: absolute;
-    top: 170px;
-    left: -20px;
-    height: 180px;
+    top: 246px;
+    left: 0px;
+    height: 104px;
 }
 
 .hero{
