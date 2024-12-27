@@ -1090,6 +1090,14 @@ footer {
     .grass10 {
         display: none;
     }
+
+    .path1 {
+        display: none;
+    }
+
+    .path2 {
+        display: none;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 1200px) {
