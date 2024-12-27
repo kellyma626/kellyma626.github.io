@@ -74,13 +74,93 @@ p {
     display: grid;
     grid-template-columns: repeat(10, 10%);
     grid-template-rows: repeat(10, 10%);
-    border: solid black;
+    border: solid #7E6A80;
     border-radius: 0px 0px 15px 15px;
     margin-top: 20px;
     margin-bottom: 50px;
     height: 350px;
     width: 600px;
+    background-color:#d4cbdd;
     position: relative;
+}
+
+.path1 {
+    background-color:#a08a94;
+    height: 50px;
+    width: 180px;
+    border-bottom-left-radius: 15px;
+    grid-column: 2;
+    grid-row: 5;
+    z-index: 1;
+}
+
+.path2 {
+    background-color: #a08a94;
+    height: 140px;
+    width: 55px;
+    grid-column: 2;
+    grid-row: 1;
+    z-index: 1;
+}
+
+.grass1 {
+    height: 120px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.grass2 {
+    height: 120px;
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.grass3 {
+    height: 120px;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.grass4 {
+    height: 120px;
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.grass5 {
+    height: 120px;
+    grid-column: 5;
+    grid-row: 1;
+}
+
+.grass6 {
+    height: 120px;
+    grid-column: 5;
+    grid-row: 4;
+}
+
+.grass7 {
+    height: 120px;
+    grid-column: 7;
+    grid-row: 1;
+}
+
+.grass8 {
+    height: 120px;
+    grid-column: 7;
+    grid-row: 4;
+}
+
+.grass9 {
+    height: 120px;
+    grid-column: 9;
+    grid-row: 1;
+}
+
+.grass10 {
+    height: 120px;
+    grid-column: 9;
+    grid-row: 4;
 }
 
 .room-box {
@@ -88,10 +168,12 @@ p {
     grid-template-columns: repeat(5, 20%);
     grid-template-rows: repeat(5, 20%);
     border: solid #FD6492;
+    background-color:rgba(250,240,250,1);
     height: 175px;
     width: 250px;
     grid-column: 5;
     grid-row: 2;
+    z-index: 1;
 }
 
 .team {
@@ -113,6 +195,7 @@ p {
     height: 125px;
     grid-column: 3;
     grid-row: 5;
+    z-index: 2;
 }
 
 .laptop {
@@ -140,10 +223,10 @@ p {
 }
 
 .dialogue-box {
-    height: 103.5px;
+    height: 100px;
     width: 600px;
     border-radius: 15px;
-    border-top: solid;
+    border-top: solid 3px #7E6A80;
     grid-row: 8;
     position: relative;
     background-color: #FEEEF1;
@@ -170,7 +253,7 @@ p {
 
 .headshot {
     position: absolute;
-    border-radius: 15px;
+    border-radius: 15px 0px 0px 15px;
     top: 246px;
     left: 0px;
     height: 104px;
