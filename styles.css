@@ -75,6 +75,7 @@ p {
     grid-template-columns: repeat(10, 10%);
     grid-template-rows: repeat(10, 10%);
     border: solid black;
+    border-radius: 0px 0px 15px 15px;
     margin-top: 20px;
     margin-bottom: 50px;
     height: 350px;
@@ -141,6 +142,7 @@ p {
 .dialogue-box {
     height: 103.5px;
     width: 600px;
+    border-radius: 15px;
     border-top: solid;
     grid-row: 8;
     position: relative;
@@ -168,6 +170,7 @@ p {
 
 .headshot {
     position: absolute;
+    border-radius: 15px;
     top: 246px;
     left: 0px;
     height: 104px;
