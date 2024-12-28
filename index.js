@@ -1,5 +1,5 @@
 $(".girl").click(function() {
-    $(".dialogue").text("“Hello! I'm Kelly, a Computer Science student at the University of California, Riverside.\"")
+    $(".dialogue").text("\"Hi! I'm Kelly, a Computer Science student at the University of California, Riverside. I'm currently exploring full-stack development and artificial intelligence/machine learning.\"")
 });
 
 $(".headphones").click(function() {
@@ -8,19 +8,19 @@ $(".headphones").click(function() {
     <a target="_blank" href="https://www.youtube.com/watch?v=gGdGFtwCNBE&list=PLKTZHUmUvnmIDAk4eJqGF6vJ3krJvLojU&index=2&ab_channel=TheKillersVEVO">The Killers</a>, 
     <a target="_blank" href="https://www.youtube.com/watch?v=nnvqfucTs0o&ab_channel=KidCudi-Topic">Kid Cudi</a>, 
     <a target="_blank" href="https://www.youtube.com/watch?v=F6VfsJ7LAlE&ab_channel=LIVELOVEASAPVEVO">A$AP Rocky</a>, and 
-    <a target="_blank" href="https://www.youtube.com/watch?v=Gl83mI69nX4&ab_channel=AtlanticRecords">Lupe Fiasco</a>. Currently, my favorite song is "<a target="_blank" href="https://www.youtube.com/watch?v=2s3KNE_9qRU&ab_channel=LyricalMuse-ic">iloveyou</a>" by BETWEEN FRIENDS."`);
+    <a target="_blank" href="https://www.youtube.com/watch?v=Gl83mI69nX4&ab_channel=AtlanticRecords">Lupe Fiasco</a>. Currently, my favorite song is '<a target="_blank" href="https://www.youtube.com/watch?v=2s3KNE_9qRU&ab_channel=LyricalMuse-ic">iloveyou</a>' by BETWEEN FRIENDS."`);
 });
 
 $(".laptop").click(function() {
-    $(".dialogue").text("“I use my MacBook for coding projects, binge-watching anime/K-dramas/movies, and playing RPGs.”")
+    $(".dialogue").text("“I use my MacBook for classes and independent learning... and, you know, bingeing shows and movies. I watch everything from rom-coms to psychological thrillers.”")
 });
 
 $(".cat").click(function() {
-    $(".dialogue").text("“My aunt and I found a stray kitten in El Monte and took him in. His name is Monty. He’s a really affectionate lil guy, but he also scratched me a lot.”")
+    $(".dialogue").text("“My aunt and I found a stray kitten in El Monte and took him in. His name is Monty. He’s a really affectionate and adorable lil guy, but he also scratched me a lot.”")
 });
 
 $(".book").click(function() {
-    $(".dialogue").html('“Pride and Prejudice is my favorite book. I have soooo much to say about it. In fact, read my analysis of the novel <a target="_blank" href="misc/Kelly Ma - Book Analysis_ Pride and Prejudice.pdf">HERE</a> !!”');
+    $(".dialogue").html('“Pride and Prejudice, aka my favorite book, is a Regency-era social satire about the search for happiness, love, and understanding in a world of inflexible expectations and social rules. I have soooo much to say about it. In fact, read my analysis of the novel <a target="_blank" href="misc/Kelly Ma - Book Analysis_ Pride and Prejudice.pdf">HERE</a> !!”');
 });
 
 $(".winc").click(function() {
