@@ -53,7 +53,7 @@ $(".rpg").click(function() {
     $(".screen3").html('<ul><li>Designed and integrated <p class="gray-space">Item</p>, <p class="gray-space">Potion</p>, and <p class="gray-space">Weapon</p> classes, managing item usage and stat modifications to optimize gameplay dynamics</li><li>Validated functionality thru unit testing with <p class="gray-space">GoogleTest</p> and CI pipelines using <p class="gray-space">GitHub Actions</p>, while debugging and profiling with <p class="gray-space">Valgrind</p>, <p class="gray-space">GDB</p>, <p class="gray-space">Gcov</p>, and <p class="gray-space">Lcov</p> to ensure optimal performance</li></ul><a target="_blank" href="https://github.com/kellyma073/rpg-cave-game"><img class="www" src="contact/gitcat.png"/></a>');
  });
 
-var song = new Audio("music/sakuragirl.mp3");
+var song = new Audio("music/sexypigeon.mp3");
 var isPlaying = false;
 
 $(".play").click(function() {
