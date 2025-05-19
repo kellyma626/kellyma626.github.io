@@ -1,22 +1,22 @@
 $(".girl").click(function() {
-    $(".dialogue").text("\"Hi! I'm Kelly, a Computer Science student at the University of California, Riverside. I'm currently exploring full-stack development and artificial intelligence/machine learning.\"")
+    $(".dialogue").text("\"Hi! I'm Kelly, a Computer Science student at the University of California, Riverside. I'm currently exploring AI/ML through the Break Through Tech AI Program at Cornell Tech.\"")
 });
 
 $(".headphones").click(function() {
     $(".dialogue").html(`"I love music. I’ve played the clarinet and guitar! My on-repeat artists are 
-    <a target="_blank" href="https://www.youtube.com/watch?v=8sgycukafqQ&ab_channel=LinkinPark">Linkin Park</a>, 
-    <a target="_blank" href="https://www.youtube.com/watch?v=gGdGFtwCNBE&list=PLKTZHUmUvnmIDAk4eJqGF6vJ3krJvLojU&index=2&ab_channel=TheKillersVEVO">The Killers</a>, 
-    <a target="_blank" href="https://www.youtube.com/watch?v=nnvqfucTs0o&ab_channel=KidCudi-Topic">Kid Cudi</a>, 
-    <a target="_blank" href="https://www.youtube.com/watch?v=F6VfsJ7LAlE&ab_channel=LIVELOVEASAPVEVO">A$AP Rocky</a>, and 
-    <a target="_blank" href="https://www.youtube.com/watch?v=Gl83mI69nX4&ab_channel=AtlanticRecords">Lupe Fiasco</a>. Currently, my favorite song is '<a target="_blank" href="https://www.youtube.com/watch?v=2s3KNE_9qRU&ab_channel=LyricalMuse-ic">iloveyou</a>' by BETWEEN FRIENDS."`);
+    <a target="_blank" href="https://www.youtube.com/watch?v=aalRn01lMmg&ab_channel=beabadoobeeVEVO">beabadoobee</a>, 
+    <a target="_blank" href="https://www.youtube.com/watch?v=M5q8q9K4M14&ab_channel=Grimes-Topic">Grimes</a>, 
+    <a target="_blank" href="https://www.youtube.com/watch?v=NLi2v-Gq-5A&ab_channel=LastGangRadio">Crystal Castles</a>, 
+    <a target="_blank" href="https://www.youtube.com/watch?v=Q2tMQMQvpos&ab_channel=MattMaltese">Matt Maltese</a>, and 
+    <a target="_blank" href="https://www.youtube.com/watch?v=Orlbo9WkZ2E&ab_channel=DeathGrips">Death Grips</a>. Currently, my favorite song is '<a target="_blank" href="https://www.youtube.com/watch?v=2s3KNE_9qRU&ab_channel=LyricalMuse-ic">iloveyou</a>' by BETWEEN FRIENDS."`);
 });
 
 $(".laptop").click(function() {
-    $(".dialogue").text("“I use my MacBook for classes and independent learning... and, you know, bingeing shows and movies. I watch everything from rom-coms to psychological thrillers.”")
+    $(".dialogue").text("“I use my MacBook for classes, independent learning, and bingeing shows/movies! Some of my favorites to watch are Gone Girl, Howl's Moving Castle, Special A, Ouran High School Host Club, and Nana.”")
 });
 
 $(".cat").click(function() {
-    $(".dialogue").text("“My aunt and I found a stray kitten in El Monte and took him in. His name is Monty. He’s a really affectionate and adorable lil guy, but he also scratched me a lot.”")
+    $(".dialogue").text("“My aunt and I found a stray kitten in El Monte and took him in. His name is Monty. He’s cute, but I think he's getting a lil chunky.”")
 });
 
 $(".research").click(function() {
