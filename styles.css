@@ -844,6 +844,11 @@ footer {
         transform: scale(1);
         box-shadow: none;
     }
+
+    .pic2:hover {
+        transform: scale(1);
+        box-shadow: none;
+    }
  
     .description1 {
         font-size: 11px;
