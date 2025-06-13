@@ -74,12 +74,12 @@ p {
     margin-bottom: 30px;
     height: 350px;
     width: 600px;
-    background-color:#cdecc1;
+    background-color:#8fb39a;
     position: relative;
 }
 
 .path1 {
-    background-color:#dcc5ae;
+    background-color:#D6B5AA;
     height: 50px;
     width: 181px;
     border-bottom-left-radius: 15px;
@@ -89,7 +89,7 @@ p {
 }
 
 .path2 {
-    background-color: #dcc5ae;
+    background-color: #D6B5AA;
     height: 140px;
     width: 55px;
     grid-column: 2;
@@ -274,7 +274,7 @@ p {
     width: 240px;
     grid-column: 1;
     grid-row: 1;
-    background-color:#FFB84C;
+    background-color:#FFAC8A;
 }
 
 .contact-icon2 {
@@ -444,12 +444,12 @@ p {
 
 .rounded-box:hover {
     transform: scale(1.02);
-    box-shadow: 8px 8px 2px 1px #FFEBCE;
+    box-shadow: 8px 8px 2px 1px #FFE1CC;
 }
 
 .pic2:hover {
     transform: scale(1.02);
-    box-shadow: 8px 8px 2px 1px #FFEBCE;
+    box-shadow: 8px 8px 2px 1px #FFE1CC;
 }
 
 .circles {
@@ -471,11 +471,11 @@ p {
 }
 
 .light-pink {
-    background-color:#FFB84C;
+    background-color:#FFAC8A;
 }
 
 .gray {
-    background-color:#67D7CC;
+    background-color:#8fb39a;
 }
 
 .www {
@@ -524,7 +524,7 @@ ul {
     border-radius: 20px;
     height: 300px;
     width: 609px;
-    background-color: #ffe0af;
+    background-color: #ffaa8593;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -577,7 +577,7 @@ ul {
 }
 
 .on:hover {
-    box-shadow: 0 3px 4px 0 #FFEBCE;
+    box-shadow: 0 3px 4px 0 #FFE1CC;
     opacity: 0.9;
     transform: scale(1.02);
     cursor: pointer;
@@ -637,7 +637,7 @@ ul {
 }
 
 a:hover {
-    color: #FFB84C;
+    color: #FFAC8A;
 }
 
 a {
@@ -1257,7 +1257,7 @@ footer {
     .outer {
         height: 178px;
         width: 360px;
-        background-color: #ffe0af;
+        background-color: #fecbb0;
     }
 
      .center {
