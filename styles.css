@@ -5,7 +5,7 @@
 
 @keyframes blinking1 {
     0% { border-color: transparent }
-    50% { border-color: #776B97 }
+    50% { border-color: #FF6B81 }
     100% { border-color: transparent }
 }
 
@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background-image: radial-gradient(circle, rgb(255, 233, 243) 0%, rgba(250,240,250,1) 100%);
+    background-color: #FFF7ED;
     padding-top: 125px;
     padding-left: 225px;
     padding-right: 225px;
@@ -22,7 +22,7 @@ body {
 }
 
 p {
-    color: #7E6A80;
+    color: #5A4742;
     font-size: 14px;
     font-family: "Noto Sans", system-ui;
     font-weight: normal;
@@ -30,13 +30,13 @@ p {
 }
 
 .pink-space {
-    color: #776B97;
+    color: #FF6B81;
     font-weight: bold;
     font-size: 14px;
 }
 
 .gray-space {
-    color: #7E6A80;
+    color: #5A4742;
     font-weight: bold;
     font-size: 14px;
 }
@@ -68,18 +68,18 @@ p {
     display: grid;
     grid-template-columns: repeat(10, 10%);
     grid-template-rows: repeat(10, 10%);
-    border: solid #7E6A80;
+    border: solid #5A4742;
     border-radius: 15px 15px 15px 15px;
     margin-top: 20px;
     margin-bottom: 30px;
     height: 350px;
     width: 600px;
-    background-color:#d4cbdd;
+    background-color:#cdecc1;
     position: relative;
 }
 
 .path1 {
-    background-color:#a08a94;
+    background-color:#dcc5ae;
     height: 50px;
     width: 181px;
     border-bottom-left-radius: 15px;
@@ -89,7 +89,7 @@ p {
 }
 
 .path2 {
-    background-color: #a08a94;
+    background-color: #dcc5ae;
     height: 140px;
     width: 55px;
     grid-column: 2;
@@ -163,8 +163,8 @@ p {
     display: grid;
     grid-template-columns: repeat(5, 20%);
     grid-template-rows: repeat(5, 20%);
-    border: solid #776B97;
-    background-color:#FEEEF1;
+    border: solid #5A4742;
+    background-color:#FFF3E6;
     height: 175px;
     width: 250px;
     grid-column: 5;
@@ -216,14 +216,14 @@ p {
     height: 100px;
     width: 600px;
     border-radius: 15px;
-    border-top: solid 3px #7E6A80;
+    border-top: solid 3px #5A4742;
     grid-row: 8;
     position: relative;
-    background-color: #FEEEF1;
+    background-color: #fff1ee;
 }
 
 .name {
-    color: #776B97;
+    color: #FF6B81;
     font-size: 18px;
     font-family: "Georgia", serif;
     font-weight: bold;
@@ -236,7 +236,7 @@ p {
     font-size: 14px;
     font-family: "Noto Sans", system-ui;
     padding-left: 115px;
-    color: #7E6A80;
+    color: #5A4742;
     font-weight: 400;
     padding-right: 30px;
 }
@@ -244,9 +244,9 @@ p {
 .headshot {
     position: absolute;
     border-radius: 15px 0px 0px 15px;
-    top: 246px;
+    top: 248px;
     left: 0px;
-    height: 104px;
+    height: 102px;
 }
 
 .hero{
@@ -262,10 +262,10 @@ p {
     grid-template-rows: repeat(5, 40px);
     height: 200px;
     width: 240px;
-    border: solid;
+    border: solid #5A4742;
     text-align: left;
     align-items: center;
-    background-color: #FEEEF1;
+    background-color: #FFF3E6;
 }
 
 
@@ -274,7 +274,7 @@ p {
     width: 240px;
     grid-column: 1;
     grid-row: 1;
-    background-color:#776B97;
+    background-color:#FFB84C;
 }
 
 .contact-icon2 {
@@ -309,7 +309,7 @@ p {
 .contact-details1 {
     grid-column: 2;
     grid-row: 1;
-    color:#FEEEF1;
+    color:#FFF3E6;
     font-family: "Georgia", serif-sans;
     font-size: 20px;
     font-weight: 400;
@@ -356,7 +356,7 @@ p {
 .pic {
     height: 200px;
     flex: 2;
-    border: 1.5px solid #7E6A80;
+    border: 1.5px solid #5A4742;
     border-radius: 5px;
     margin-right: 20px;
 }
@@ -366,7 +366,7 @@ p {
 }
 
 .title {
-    color: #776B97;
+    color: #FF6B81;
     font-size: 50px;
     font-family: "Yeseva One", serif;
     font-style: normal;
@@ -375,13 +375,13 @@ p {
 }
 
 .bar {
-    background-color: #776B97;
+    background-color: #5A4742;
     height: 2px;
     grid-column: 3;
 }
 
 .bar2 {
-    background-color: #7E6A80;
+    background-color: #5A4742;
     height: 1px;
 }
 
@@ -408,9 +408,9 @@ p {
 }
 
 .skills2 {
-    color: #776B97;
+    color: #5A4742;
     font-size: 14px;
-    font-family: "Georgia", serif;
+    font-family: "Noto Sans", system-ui;
     font-weight: bold;
     display: inline;
 }
@@ -428,15 +428,15 @@ p {
 }
 
 .rounded-box {
-    border: solid;
+    border: solid #5A4742;
     border-radius: 25px;
     height: 400px;
     width: 450px;
-    background-color: #FEEEF1;
+    background-color: #fff1ee;
 }
 
 .pic2 {
-    border: solid;
+    border: solid #5A4742;
     border-radius: 25px;
     width: 450px;
     margin-bottom: 15px;
@@ -444,12 +444,12 @@ p {
 
 .rounded-box:hover {
     transform: scale(1.02);
-    box-shadow: 8px 8px 2px 1px #f0e0ff;
+    box-shadow: 8px 8px 2px 1px #FFEBCE;
 }
 
 .pic2:hover {
     transform: scale(1.02);
-    box-shadow: 8px 8px 2px 1px #f0e0ff;
+    box-shadow: 8px 8px 2px 1px #FFEBCE;
 }
 
 .circles {
@@ -458,7 +458,7 @@ p {
 }
 
 .dark-pink {
-    background-color:#776B97;
+    background-color:#FF6B81;
     border-radius: 50%; 
     height: 15px;
     width: 15px;
@@ -471,11 +471,11 @@ p {
 }
 
 .light-pink {
-    background-color:#aba9dd;
+    background-color:#FFB84C;
 }
 
 .gray {
-    background-color:#c5c4dc;
+    background-color:#67D7CC;
 }
 
 .www {
@@ -488,7 +488,7 @@ p {
 
 .description1 {
     margin: 25px;
-    color: #7E6A80;
+    color: #5A4742;
     font-size: 14px;
     font-family: "Noto Sans", system-ui;
     font-weight: normal;
@@ -496,7 +496,7 @@ p {
 
 .description2 {
     margin: 25px;
-    color: #7E6A80;
+    color: #5A4742;
     font-size: 14px;
     font-family: "Noto Sans", system-ui;
     font-weight: normal;
@@ -505,7 +505,7 @@ p {
 .topic {
     font-weight: bold;
     font-size: 24px;
-    color:#776B97;
+    color:#FF6B81;
     margin-bottom: 8px;
     font-family: "Georgia", serif;
 }
@@ -520,11 +520,11 @@ ul {
 }
 
 .outer {
-    border: solid;
+    border: solid #5A4742;
     border-radius: 20px;
     height: 300px;
     width: 609px;
-    background-color: #C1BAD9;
+    background-color: #ffe0af;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -541,7 +541,7 @@ ul {
     border-radius: 20px;
     height: 236px;
     width: 396px;
-    background-color: #FEEEF1;
+    background-color: #FFF3E6;
     margin-right: 15px;
     margin-left: 10px;
 }
@@ -564,7 +564,7 @@ ul {
 }
 
 .game {
-    border: solid;
+    border: solid #5A4742;
     border-radius: 10px 10px 10px 30px;
     height: 128px;
     width: 121px;
@@ -577,7 +577,7 @@ ul {
 }
 
 .on:hover {
-    box-shadow: 0 3px 4px 0 #bab8f5;
+    box-shadow: 0 3px 4px 0 #FFEBCE;
     opacity: 0.9;
     transform: scale(1.02);
     cursor: pointer;
@@ -589,7 +589,7 @@ ul {
     height: 93px;
     width: 93px;
     margin-top: 10px;
-    background-color: #FEEEF1;
+    background-color: #FFF3E6;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -610,7 +610,7 @@ ul {
 .contact {
     display: flex;
     gap: 20px;
-    color: #7E6A80;
+    color: #5A4742;
     font-size: 12px;
     font-family: "Noto Sans", system-ui;
     font-weight: normal;
@@ -629,7 +629,7 @@ ul {
     z-index: 1000;
     top: 0;
     overflow: hidden;
-    background-color: rgba(250,240,250,1);
+    background-color: #fff1ee;
     padding: 20px;
     width: 100%;
     margin-left: -235px;
@@ -637,16 +637,16 @@ ul {
 }
 
 a:hover {
-    color:#8783ee;
+    color: #FFB84C;
 }
 
 a {
     text-decoration: none;
-    color: #7E6A80;
+    color: #5A4742;
 }
 
 footer {
-    color: #7E6A80;
+    color: #5A4742;
     font-size: 12px;
     font-family: "Noto Sans", system-ui;
     font-weight: normal;
@@ -668,6 +668,7 @@ footer {
 
 .prettypics {
     height: 300px;
+    margin-bottom: 10px;
 }
 
 .gallery-flex {
@@ -876,7 +877,7 @@ footer {
     .outer {
         height: 148px;
         width: 300px;
-        background-color: #C1BAD9;
+        background-color: #ffe0af;
     }
  
     .center {
@@ -951,7 +952,7 @@ footer {
  
     .contact {
         gap: 20px;
-        color: #7E6A80;
+        color: #5A4742;
         font-size: 8px;
         margin-top: 30px;
     }
@@ -995,19 +996,19 @@ footer {
     }
 
     .room-box {
-        border: 1px solid #776B97;
+        border: 1px solid #5A4742;
      }
      
      .rounded-box {
-        border: 1px solid;
+        border: 1px solid #5A4742;
      }
      
      .outer {
-        border: 1px solid;
+        border: 1px solid #5A4742;
      }
      
      .game {
-        border: 1px solid;
+        border: 1px solid #5A4742;
      }
 
     .grass1 {
@@ -1256,7 +1257,7 @@ footer {
     .outer {
         height: 178px;
         width: 360px;
-        background-color: #C1BAD9;
+        background-color: #ffe0af;
     }
 
      .center {
@@ -1325,7 +1326,7 @@ footer {
 
     .contact {
         gap: 20px;
-        color: #7E6A80;
+        color: #5A4742;
         font-size: 10px;
         margin-top: 30px;
     }
@@ -1356,19 +1357,19 @@ footer {
     }
 
      .room-box {
-        border: 1px solid #776B97;
+        border: 1px solid #5A4742;
      }
      
      .rounded-box {
-        border: 1px solid;
+        border: 1px solid #5A4742;
      }
      
      .outer {
-        border: 1px solid;
+        border: 1px solid #5A4742;
      }
      
      .game {
-        border: 1px solid;
+        border: 1px solid #5A4742;
      }
 
      .grass1 {
