@@ -524,7 +524,7 @@ ul {
     border-radius: 20px;
     height: 300px;
     width: 609px;
-    background-color: #ffaa8593;
+    background-color: #fecbb0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -837,7 +837,7 @@ footer {
     }
  
     .rounded-box {
-        height: 400px;
+        height: 420px;
         width: 280px;;
     }
  
@@ -877,7 +877,7 @@ footer {
     .outer {
         height: 148px;
         width: 300px;
-        background-color: #ffe0af;
+        background-color: #fecbb0;
     }
  
     .center {
@@ -974,7 +974,7 @@ footer {
     }
 
     .prettypics {
-        height: 200px;
+        height: 100px;
         width: auto;
     }
 
