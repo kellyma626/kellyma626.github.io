@@ -975,6 +975,7 @@ footer {
 
     .prettypics {
         height: 100px;
+        margin-bottom: -40px;
         width: auto;
     }
 
