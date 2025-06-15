@@ -971,7 +971,6 @@ footer {
  
     footer {
         font-size: 8px;
-        margin-top: 20px;
     }
 
     .prettypics {
@@ -982,6 +981,7 @@ footer {
 
     .gallery-flex {
         display: block;
+        margin-bottom: 20px;
     }
 
     .gallery-flex p {
