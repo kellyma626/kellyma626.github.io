@@ -524,7 +524,7 @@ ul {
     border-radius: 20px;
     height: 300px;
     width: 609px;
-    background-color: #fecbb0;
+    background-color: #F2F4E3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -539,6 +539,7 @@ ul {
 
 .inner {
     border-radius: 20px;
+    border: solid #c7b8b4;
     height: 236px;
     width: 396px;
     background-color: #FFF3E6;
@@ -877,7 +878,7 @@ footer {
     .outer {
         height: 148px;
         width: 300px;
-        background-color: #fecbb0;
+        background-color: #F2F4E3;
     }
  
     .center {
@@ -1258,7 +1259,7 @@ footer {
     .outer {
         height: 178px;
         width: 360px;
-        background-color: #fecbb0;
+        background-color: #F2F4E3;
     }
 
      .center {
