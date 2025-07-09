@@ -805,7 +805,8 @@ footer {
   
   @media (max-width: 768px) {
     .art-gallery-wrapper {
-      height: 70vh;
+      height: 95vh;
+      border: 1px solid #5A4742;
     }
   
     .art-gallery-slide {
@@ -968,7 +969,7 @@ footer {
     }
  
     .rounded-box {
-        height: 420px;
+        height: 440px;
         width: 280px;;
     }
  
@@ -1021,6 +1022,7 @@ footer {
         width: 195px;
         margin-right: 15px;
         margin-left: 10px;
+        border: 1px solid #c7b8b4;
     }
 
     .description2 .thin {
@@ -1105,9 +1107,7 @@ footer {
     }
 
     .prettypics {
-        height: 100px;
-        margin-bottom: -40px;
-        width: auto;
+        display: none;
     }
 
     .gallery-flex {
