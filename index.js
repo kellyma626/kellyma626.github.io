@@ -68,7 +68,16 @@ $(".qwer").click(function() {
      }
  });
  
-
+ const track = document.getElementById("artGalleryTrack");
+ let currentIndex = 0;
+ 
+ function changeSlide(direction) {
+   const slides = document.querySelectorAll(".art-gallery-slide");
+   const total = slides.length;
+   currentIndex = (currentIndex + direction + total) % total;
+   track.style.transform = `translateX(-${currentIndex * 100}%)`;
+ }
+ 
 // code below is from https://pastebin.com/cYaZamTx
 
 var b = document.body;

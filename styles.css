@@ -702,6 +702,132 @@ footer {
     padding-right: 50px;
 }
 
+.art-gallery-wrapper {
+    max-width: 810px;
+    height: 80vh;
+    margin-bottom: 2rem;
+    border: solid #5A4742;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  
+  .art-gallery-track {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+  }
+  
+  .art-gallery-slide {
+    flex: 0 0 100%;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 3rem;
+    box-sizing: border-box;
+    align-items: center;
+    background: #fff1ee;
+  }
+  
+  .art-gallery-big-img {
+    max-height: 100%;
+    max-width: 60%;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .art-gallery-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    height: 100%;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  
+  .art-gallery-small-img {
+    width: 100%;
+    max-height: 60%;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  
+  .art-gallery-caption {
+    overflow-y: auto;
+    line-height: 1.5;
+    flex-grow: 1;
+  }
+  
+  .art-gallery-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #FFF3E6;
+    border: none;
+    padding: 0.4rem 1.2rem;
+    cursor: pointer;
+    font-size: 2rem;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    user-select: none;
+    transition: background 0.3s ease;
+    z-index: 10;
+  }
+  
+  .art-gallery-btn:hover {
+    background: #FFAC8A;
+  }
+  
+  .art-gallery-btn.prev {
+    left: 15px;
+  }
+  
+  .art-gallery-btn.next {
+    right: 15px;
+  }
+  
+  .art-gallery-caption::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .art-gallery-caption::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 4px;
+  }
+  
+  .art-gallery-caption::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  @media (max-width: 768px) {
+    .art-gallery-wrapper {
+      height: 70vh;
+    }
+  
+    .art-gallery-slide {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .art-gallery-big-img,
+    .art-gallery-right {
+      max-width: 100%;
+      max-height: 50vh;
+    }
+  
+    .art-gallery-right {
+      margin-top: 1rem;
+    }
+  
+    .art-gallery-caption {
+      max-height: 20vh;
+    }
+  }
+
 @media (min-width: 319px) and (max-width: 480px) {
     body {
         padding-top: 70px;
