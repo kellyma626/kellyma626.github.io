@@ -942,7 +942,7 @@ footer {
     .music {
         display: none;
     }
-  
+
     .nav {
       font-size: 14px;
       padding: 15px 20px;
@@ -984,11 +984,7 @@ footer {
       }
   
   .ds-and-games {
-    flex-direction: column;
-    align-items: center;
-    overflow-x: hidden;
-    width: 100vw;
-    position: relative;
+    display: flex;
   }
 
   .games {
