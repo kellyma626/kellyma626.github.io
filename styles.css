@@ -672,6 +672,11 @@ footer {
     margin-bottom: 10px;
 }
 
+.prettypics2 {
+    height: 150px;
+    margin-right: 170px;
+}
+
 .gallery-flex {
     display: flex;
     gap: 10px;
@@ -706,8 +711,8 @@ footer {
     max-width: 810px;
     height: 80vh;
     margin-bottom: 2rem;
-    border: solid #5A4742;
-    border-radius: 10px;
+    border: 30px solid #5A4742;
+    border-radius: 35px;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -725,6 +730,7 @@ footer {
     flex: 0 0 100%;
     display: flex;
     gap: 2rem;
+    border-radius: 35px;
     padding: 2rem 3rem;
     box-sizing: border-box;
     align-items: center;
