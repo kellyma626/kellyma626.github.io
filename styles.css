@@ -808,8 +808,106 @@ footer {
   .art-gallery-caption::-webkit-scrollbar-track {
     background: transparent;
   }
-  
-  @media (max-width: 768px) {
+
+@media (max-width: 480px) {
+  body {
+    padding: 60px 16px 40px;
+    font-size: 14px;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: left;
+    gap: 8px;
+    font-size: 12px;
+    margin-left: 0;
+  }
+
+  .skills {
+    display: none;
+  }
+
+  .intro,
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .intro p {
+    display: none;
+  }
+
+  .music {
+    display: none;
+  }
+
+  .contact-grid {
+    display: none;
+  }
+
+  .omori {
+    display: none;
+  }
+
+  .dialogue-box {
+    width: 100%;
+  }
+
+  .headshot {
+    position: static;
+    height: 120px;
+    margin: 0 auto 1rem;
+  }
+
+  .skills {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .pop-ups {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .rounded-box,
+  .pic2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .ds-and-games {
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    width: 100vw;
+    position: relative;
+  }
+
+  .games {
+    margin-top: 20px;
+    margin-left: 0;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+  }
+
+  .prettypics {
+    display: none;
+  }
+
+  .prettypics2 {
+    margin-left: 50px;
+  }
+
+  .gallery-flex {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
     .art-gallery-wrapper {
       height: 95vh;
       border: 1px solid #5A4742;
@@ -831,738 +929,124 @@ footer {
     }
   
     .art-gallery-caption {
-      max-height: 20vh;
-    }
-  }
-
-@media (min-width: 319px) and (max-width: 480px) {
-    body {
-        padding-top: 70px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 30px;
-    }
-
-    p {
-        font-size: 11px;
-    }
-
-    .pink-space {
-        font-size: 11px;
-    }
-    
-    .gray-space {
-        font-size: 11px;
-    }
-
-    .mood {
-        display: block;
-    }
-    
-    .intro {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .music {
-        display: none;
-    }
-
-    .title {
-        font-size: 22px;
-    }
-    
-    .title2 {
-        font-size: 22px;
-    }
-
-    .container {
-        display: block;
-    }
-
-    .typed-out {
-        font-size: 25px;
-    }
-
-    .omori {
-        display: contents;
-    }
-
-    .dialogue-box {
-        display: none;
-    }
-
-    .headshot {
-        display: none;
-    }
-
-    .contact-grid {
-        display: none;
-    }
-
-    .cat:hover, .laptop:hover, .headphones:hover, .girl:hover, .play:hover {
-        transform: scale(1);
-        opacity: 1;
-        cursor: default;
-    }
-
-    .cat {
-        height: 87.5px;
-        grid-column: 4;
-        grid-row: 5;
-    }
-    
-    .laptop {
-        height: 70px;
-        grid-column: 1;
-        grid-row: 1;
-    }
-    
-    .headphones {
-        height: 56px;
-        grid-column: 4;
-        grid-row: 1;
-    }
-    
-    .girl {
-        height: 87.5px;
-        grid-column: 2;
-        grid-row: 2;
-        z-index: 2;
-    }
-
-    .room-box {
-        height: 122.5px;
-        width: 175px;
-        margin-top: 20px;
-    }
-
-    .flexbox {
-        display: flex;
-        flex-direction: column;
-    }
- 
-    .text {
-        flex: 1;
-    }
-
-
-    .heading {
-        font-size: 14px;
-    }
-
-    .skills {
-        display: none;
-    }
-
-    .skill-issue {
-        margin-top: -30px;
-    }
-
-    .skills2 {
-        font-size: 10px;
-    }
-
-    .pic2 {
-        display: none;
-    }
-
-    .pop-ups {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 15px;
-    }
- 
-    .rounded-box {
-        height: 440px;
-        width: 280px;;
-    }
- 
-    .rounded-box:hover {
-        transform: scale(1);
-        box-shadow: none;
-    }
- 
-    .description1 {
-        font-size: 11px;
-    }
-   
-    .description2 {
-        font-size: 11px;
-    }
- 
-    .topic {
-        font-weight: bold;
-        font-size: 15px;
-        margin-bottom: 8px;
-        text-align: center;
-    }
-
-    .screen2 {
-        display: none;
-    }
- 
-    .screen3 ul {
-        display: none;
-    }
- 
-    .screen3 a img {
-        height: 60px;
-        margin-left: 5px;
-    }
-   
-    .outer {
-        height: 148px;
-        width: 300px;
-        background-color: #F2F4E3;
-    }
- 
-    .center {
-        height: 14px;
-        width: 300px;
-    }
- 
-    .inner {
-        height: 116px;
-        width: 195px;
-        margin-right: 15px;
-        margin-left: 10px;
-        border: 1px solid #c7b8b4;
-    }
-
-    .description2 .thin {
-        display: none;
-    }
-
-    .controls1 {
-        height: 86px;
-        margin-right: -8px;
-    }
-   
-    .controls2 {
-        height: 86px;
-        margin-left: -8px;
-    }
-
-    .holes {
-        height: 86px;
-        margin-right: -4px;
-        margin-left: -10px;
-    }
- 
-    .ds-and-games {
-        display: flex;
-        flex-direction: column-reverse;
-    }
- 
-    .game {
-        border-radius: 10px;
-        height: 63px;
-        width: 60px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin-bottom: 20px;
-    }
- 
-    .game-tag {
-        display: flex;
-        border-radius: 10px;
-        height: 46px;
-        width: 46px;
-        margin-top: 7px;
-        margin-bottom: -5px;
-    }
- 
-    .down-arrow {
-        height: 7px;
-    }
- 
-    .games {
-        display: flex;
-        gap: 10px;
-        margin-left: 0px;
-    }
- 
-    .off {
-        display: none;
-    }
- 
-    .contact {
-        gap: 20px;
-        color: #5A4742;
-        font-size: 8px;
-        margin-top: 30px;
-    }
-
-    .team {
-        display: none;
-    }
-    
-    .caption {
-        display: none;
-    }
- 
-    .nav {
-        display: none;
-    }
- 
-    footer {
-        font-size: 8px;
-    }
-
-    .prettypics {
-        display: none;
-    }
-
-    .gallery-flex {
-        display: block;
-    }
-
-    .gallery-flex p {
-        display: none;
-    }
- 
-    p.gallery-flex {
-        display: none;
-    }
-
-    .flexy {
-        margin-top: 50px;
-        margin-bottom: 30px;
-    }
-
-    .room-box {
-        border: 1px solid #5A4742;
-     }
-     
-     .rounded-box {
-        border: 1px solid #5A4742;
-     }
-     
-     .outer {
-        border: 1px solid #5A4742;
-     }
-     
-     .game {
-        border: 1px solid #5A4742;
-     }
-
-    .grass1 {
-        display: none;
-    }
-    
-    .grass2 {
-        display: none;
-    }
-    
-    .grass3 {
-        display: none;
-    }
-    
-    .grass4 {
-        display: none;
-    }
-    
-    .grass5 {
-        display: none;
-    }
-    
-    .grass6 {
-        display: none;
-    }
-    
-    .grass7 {
-        display: none;
-    }
-    
-    .grass8 {
-        display: none;
-    }
-    
-    .grass9 {
-        display: none;
-    }
-    
-    .grass10 {
-        display: none;
-    }
-
-    .field {
-        display: none;
-    }
-
-    .path1 {
-        display: none;
-    }
-
-    .path2 {
-        display: none;
-    }
-
-    ul {
-        list-style-type: none;
+      display: none;
     }
 }
 
 @media (min-width: 481px) and (max-width: 1200px) {
     body {
-        padding-top: 70px;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 30px;
+      padding: 80px 60px 50px; /* reduce padding from desktop but more than mobile */
+      font-size: 16px;
     }
 
-    p {
-        font-size: 12px;
-    }
-
-    .pink-space {
-        font-size: 12px;
-    }
-
-    .gray-space {
-        font-size: 12px;
-    }
-    
-    .intro {
-        display: flex;
-        flex-direction: column;
-    }
-    
     .music {
         display: none;
     }
-
-    .title {
-        font-size: 50px;
-    }
-    
-    .title2 {
-        font-size: 50px;
-    }
-
-    .container {
-        display: block;
-    }
-
-    .typed-out {
-        font-size: 35px;
-    }
-
-    .omori {
-        display: contents;
-    }
-
-    .dialogue-box {
-        display: none;
-    }
-
-    .headshot {
-        display: none;
-    }
-
-    .contact-grid {
-        display: none;
-    }
-
-    .cat:hover, .laptop:hover, .headphones:hover, .girl:hover, .play:hover {
-        transform: scale(1);
-        opacity: 1;
-        cursor: default;
-    }
-
-    .cat {
-        height: 120px;
-        grid-column: 4;
-        grid-row: 5;
-    }
-    
-    .laptop {
-        height: 96px;
-        grid-column: 1;
-        grid-row: 1;
-    }
-    
-    .headphones {
-        height: 77px;
-        grid-column: 4;
-        grid-row: 1;
-    }
-    
-    .girl {
-        height: 120px;
-        grid-column: 2;
-        grid-row: 2;
-    }
-
-    .room-box {
-        height: 169px;
-        width: 241px;
-        margin-top: 20px;
-    }
-
-    .team {
-        display: none;
-    }
-
-    .caption {
-        display: none;
-    }
-
-    .flexbox {
-        display: flex;
-        flex-direction: column;
-    }
-     .text {
-        flex: 1;
-    }
-
-    .flexbox2 {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .flexy {
-        align-items: center;
-        margin-top: 50px;
-        margin-bottom: 20px;
-    }
-     .skills {
-        display: none;
-    }
-
-     .skills2 {
-        font-size: 12px;
-    }
-
-     .skill-issue {
-        margin-top: -30px;
-    }
-
-     .pop-ups {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 15px;
-        width: 615px;
-    }
-     .rounded-box {
-        height: 350px;
-    }
-
-    .rounded-box:hover {
-        transform: scale(1);
-        box-shadow: none;
-    }
-
-    .pic2:hover {
-        transform: scale(1);
-        box-shadow: none;
-    }
-     
-    .description1 {
-        font-size: 12px;
-    }
-   
-    .description2 {
-        font-size: 12px;
-    }
-     
-    .topic {
-        font-weight: bold;
-        font-size: 24px;
-        margin-bottom: 8px;
-        text-align: center;
-    }
-
-    .screen2 {
-        display: none;
-    }
-     .screen3 ul {
-        display: none;
-    }
-     .screen3 a img {
-        height: 80px;
-        margin-left: 5px;
-    }
-
-    .description2 .thin {
-        display: none;
-    }
-
-    .outer {
-        height: 178px;
-        width: 360px;
-        background-color: #F2F4E3;
-    }
-
-     .center {
-        height: 17px;
-        width: 360px;
-    }
-
-     .inner {
-        height: 140px;
-        width: 235px;
-        margin-right: 18px;
-        margin-left: 12px;
-    }
-
-     .controls1 {
-        height: 103px;
-        margin-right: -8px;
-    }
-   
-    .controls2 {
-        height: 103px;
-        margin-left: -8px;
-    }
-
-     .holes {
-        height: 103px;
-        margin-right: -4px;
-        margin-left: -10px;
-    }
-
-    .ds-and-games {
-        display: flex;
-    }
-
-    .game {
-        border-radius: 10px;
-        height: 75px;
-        width: 72px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin-bottom: 20px;
-    }
-
-    .game-tag {
-        display: flex;
-        border-radius: 10px;
-        height: 55px;
-        width: 55px;
-        margin-top: 7px;
-        margin-bottom: -5px;
-    }
-
-    .down-arrow {
-        height: 8px;
-    }
-
-    .games {
-        gap: 10px;
-        margin-left: 20px;
-    }
-
-    .off {
-        display: none;
-    }
-
-    .contact {
-        gap: 20px;
-        color: #5A4742;
-        font-size: 10px;
-        margin-top: 30px;
-    }
-
+  
     .nav {
+      font-size: 14px;
+      padding: 15px 20px;
+      margin-left: 0;
+    }
+  
+    .skills {
+      display: flex; /* keep skills visible on iPad */
+      justify-content: center;
+      gap: 15px;
+    }
+  
+    .intro,
+    .hero {
+      display: none;
+    }
+
+    .skills {
         display: none;
     }
-
-    footer {
-        font-size: 10px;
+  
+    .intro p {
+      display: inline; /* show intro text */
+    }
+  
+    .omori {
+      display: none;
     }
 
+    .pop-ups {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+    
+      .rounded-box,
+      .pic2 {
+        width: 100%;
+        height: auto;
+      }
+  
+  .ds-and-games {
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    width: 100vw;
+    position: relative;
+  }
+
+  .games {
+    margin-top: 20px;
+    margin-left: 0;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+  }
+  
     .prettypics {
-        height: 280px;
-        width: auto;
+      display: none;
     }
-
+  
+    .prettypics2 {
+        margin-left: 100px;
+      }
+    
     .gallery-flex {
-        display: block;
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
     }
-
-     .gallery-flex p {
-        display: none;
+  
+    /* Gallery adjustments */
+    .art-gallery-wrapper {
+      max-width: 700px;
+      height: 75vh;
+      border-width: 20px;
+      border-radius: 25px;
     }
-
-    p.gallery-flex {
-        display: none;
+  
+    .art-gallery-slide {
+      padding: 1.5rem 2rem;
+      gap: 1.5rem;
     }
-
-     .room-box {
-        border: 1px solid #5A4742;
-     }
-     
-     .rounded-box {
-        border: 1px solid #5A4742;
-     }
-     
-     .outer {
-        border: 1px solid #5A4742;
-     }
-     
-     .game {
-        border: 1px solid #5A4742;
-     }
-
-     .grass1 {
-        display: none;
+  
+    .art-gallery-big-img {
+      max-width: 55%;
+      max-height: 100%;
     }
-    
-    .grass2 {
-        display: none;
+  
+    .art-gallery-right {
+      max-width: 45%;
+      margin-top: 0;
     }
-    
-    .grass3 {
-        display: none;
+  
+    .art-gallery-caption {
+      display: none;
     }
-    
-    .grass4 {
-        display: none;
+  
+    .art-gallery-btn.prev {
+      left: 10px;
+      top: 60%;
     }
-    
-    .grass5 {
-        display: none;
+  
+    .art-gallery-btn.next {
+      right: 10px;
+      top: 60%;
     }
-    
-    .grass6 {
-        display: none;
-    }
-    
-    .grass7 {
-        display: none;
-    }
-    
-    .grass8 {
-        display: none;
-    }
-    
-    .grass9 {
-        display: none;
-    }
-    
-    .grass10 {
-        display: none;
-    }
-
-    .field {
-        display: none;
-    }
-
-    .path1 {
-        display: none;
-    }
-
-    .path2 {
-        display: none;
-    }
-
-    ul {
-        list-style-type: none;
-    }
- }
+  }
+  
