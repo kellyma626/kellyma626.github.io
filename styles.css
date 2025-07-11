@@ -36,15 +36,6 @@ p {
     display: block;
 }
 
-@media (max-width: 600px) {
-  .mood {
-    display: block;
-    white-space: normal;
-    overflow-wrap: break-word;
-    word-break: break-word;
-  }
-}
-
 .play {
     height: 40px;
     border-radius: 50%;
@@ -363,7 +354,7 @@ p {
 }
 
 .skills-bar {
-  flex-grow: 1;
+  flex: 1;
   height: 2px;
   background-color: #5A4742;
   opacity: 0.3;
@@ -398,6 +389,16 @@ p {
   font-weight: 700;
   display: inline-block;
   margin-bottom: 0.25rem;
+}
+
+@media (max-width: 1200px) {
+  .skills-header {
+    justify-content: center;
+  }
+
+  .title {
+    text-align: center;
+  }
 }
 
 .pop-ups {
@@ -806,6 +807,13 @@ footer {
     padding-right: 50px;
 }
 
+@media (max-width: 1200px) {
+
+  * {
+    border-width: 1px !important;
+  }
+}
+
 @media (max-width: 1024px) {
   .intro {
     text-align: start;
@@ -953,6 +961,15 @@ footer {
   right: 15px;
 }
 
+@media (max-width: 1200px) {
+  .intro {
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
 @media (max-width: 768px) {
   .art-gallery-slide {
     flex-direction: column;
@@ -999,6 +1016,6 @@ footer {
   }
 
   .prettypics2 {
-    margin-left: 120px;
+    margin-left: 90px;
   }
 }
