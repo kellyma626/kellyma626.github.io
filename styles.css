@@ -643,7 +643,7 @@ ul {
   .games {
     margin-left: 0;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    gap: 3rem;
     padding-top: 1.5rem;
   }
 
@@ -701,6 +701,7 @@ ul {
 @media (max-width: 600px) {
   .games {
     grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
   }
 
   .game {
@@ -850,7 +851,6 @@ footer {
 
 .prettypics {
   height: 250px;
-  margin-bottom: 10px;
 }
 
 .prettypics2 {
@@ -968,6 +968,10 @@ footer {
     align-items: center;
     text-align: center;
   }
+
+  .prettypics {
+    height: 220px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1016,6 +1020,6 @@ footer {
   }
 
   .prettypics2 {
-    margin-left: 90px;
+    margin-left: 70px;
   }
 }
