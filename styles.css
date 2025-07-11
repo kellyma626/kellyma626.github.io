@@ -847,6 +847,7 @@ footer {
   justify-content: start;
   align-items: start;
   max-width: 900px;
+  margin-top: -20px;
 }
 
 .prettypics {
@@ -856,6 +857,13 @@ footer {
 .prettypics2 {
   height: 150px;
   margin-right: 170px;
+}
+
+.prettypics3 {
+  height: 150px;
+  margin-left: 100px;
+  margin-bottom: -35px;
+  z-index: 5;
 }
 
 .art-gallery-wrapper {
