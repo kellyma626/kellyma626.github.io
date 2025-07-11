@@ -1,5 +1,81 @@
+const girl = document.querySelector('.girl');
+const questPoint = document.querySelector('.quest-point');
+
+let x = 0;
+let y = 0;
+let questTriggered = false;
+const speed = 10;
+
+const limits = {
+  left: -330,
+  right: 240,
+  up: -150,
+  down: 60
+};
+
+document.addEventListener('keydown', (e) => {
+  const key = e.key.toLowerCase();
+
+  if (key === 'arrowup' || key === 'w') {
+    y = Math.max(limits.up, y - speed);
+  } else if (key === 'arrowdown' || key === 's') {
+    y = Math.min(limits.down, y + speed);
+  } else if (key === 'arrowleft' || key === 'a') {
+    x = Math.max(limits.left, x - speed);
+  } else if (key === 'arrowright' || key === 'd') {
+    x = Math.min(limits.right, x + speed);
+  }
+
+  girl.style.transform = `translate(${x}px, ${y}px)`;
+  checkProximity();
+});
+
+function checkProximity() {
+    if (questTriggered) return;
+
+    const girlBox = girl.getBoundingClientRect();
+    const questBox = questPoint.getBoundingClientRect();
+
+    const girlCenterX = girlBox.left + girlBox.width / 2;
+    const girlCenterY = girlBox.top + girlBox.height / 2;
+    const questCenterX = questBox.left + questBox.width / 2;
+    const questCenterY = questBox.top + questBox.height / 2;
+
+    const dx = girlCenterX - questCenterX;
+    const dy = girlCenterY - questCenterY;
+    const distance = Math.sqrt(dx * dx + dy * dy);
+
+    const threshold = 40;
+
+    if (distance < threshold) {
+      questTriggered = true;
+      questPoint.remove();
+      showPopup();
+    }
+  }
+
+  function showPopup() {
+    const popup = document.getElementById('custom-popup');
+    popup.style.display = 'block';
+  }
+  
+  document.getElementById('close-popup').addEventListener('click', () => {
+    document.getElementById('custom-popup').style.display = 'none';
+  });
+
+
+  window.addEventListener("keydown", function(e) {
+    if (["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].includes(e.key)) {
+      e.preventDefault();
+    }
+  });
+
 $(".girl").click(function() {
     $(".dialogue").text("\"Hi! I'm Kelly, a Computer Science student at the University of California, Riverside. I'm currently exploring AI/ML through the Break Through Tech AI Program at Cornell Tech.\"")
+});
+
+$(".quest-point").click(function() {
+    $(".dialogue").text("\"Hm? Is that... an envelope? Try walking over with WASD!\"")
 });
 
 $(".headphones").click(function() {
