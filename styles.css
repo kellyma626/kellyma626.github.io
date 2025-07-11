@@ -385,12 +385,6 @@ p {
   line-height: 1.6;
 }
 
-.skills-text span {
-  font-weight: 700;
-  display: inline-block;
-  margin-bottom: 0.25rem;
-}
-
 @media (max-width: 1200px) {
   .skills-header {
     justify-content: center;
@@ -496,7 +490,7 @@ p {
   font-size: 24px;
   color: #FF6B81;
   margin-bottom: 8px;
-  font-family: "Palatino Linotype", "Palatino", serif;
+  font-family: "Pixelify Sans", sans-serif;
   transition: color 0.2s ease, transform 0.2s ease;
 }
 
@@ -550,7 +544,7 @@ ul {
     border-radius: 20px;
     height: 300px;
     width: 609px;
-    background-color: #F2F4E3;
+    background-color: #ffb3c5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -568,7 +562,7 @@ ul {
     border: solid #c7b8b4;
     height: 236px;
     width: 396px;
-    background-color: #FFF3E6;
+    background-color: #fff1ee;
     margin-right: 15px;
     margin-left: 10px;
 }
@@ -863,6 +857,13 @@ footer {
   height: 150px;
   margin-left: 100px;
   margin-bottom: -35px;
+  z-index: 5;
+}
+
+.prettypics4 {
+  height: 150px;
+  margin-top: -500px;
+  margin-left: 800px;
   z-index: 5;
 }
 
