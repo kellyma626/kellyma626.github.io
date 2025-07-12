@@ -70,25 +70,16 @@ function checkProximity() {
     }
   });
 
-$(".girl").click(function() {
-    $(".dialogue").text("\"Hi! I'm Kelly, a Computer Science student at the University of California, Riverside. I'm currently exploring AI/ML through the Break Through Tech AI Program at Cornell Tech.\"")
-});
-
 $(".quest-point").click(function() {
     $(".dialogue").text("\"Hm? Is that... an envelope? Try walking over with WASD!\"")
 });
 
 $(".headphones").click(function() {
-    $(".dialogue").html(`"I love music. I’ve played the clarinet and guitar! My on-repeat artists are 
-    <a target="_blank" href="https://www.youtube.com/watch?v=aalRn01lMmg&ab_channel=beabadoobeeVEVO">beabadoobee</a>, 
-    <a target="_blank" href="https://www.youtube.com/watch?v=M5q8q9K4M14&ab_channel=Grimes-Topic">Grimes</a>, 
-    <a target="_blank" href="https://www.youtube.com/watch?v=NLi2v-Gq-5A&ab_channel=LastGangRadio">Crystal Castles</a>, 
-    <a target="_blank" href="https://www.youtube.com/watch?v=Q2tMQMQvpos&ab_channel=MattMaltese">Matt Maltese</a>, and 
-    <a target="_blank" href="https://www.youtube.com/watch?v=Orlbo9WkZ2E&ab_channel=DeathGrips">Death Grips</a>. Currently, my favorite song is '<a target="_blank" href="https://www.youtube.com/watch?v=2s3KNE_9qRU&ab_channel=LyricalMuse-ic">iloveyou</a>' by BETWEEN FRIENDS."`);
+    $(".dialogue").html(`"I love music. I’ve played the clarinet and guitar! Currently, my favorite song is '<a target="_blank" href="https://www.youtube.com/watch?v=2s3KNE_9qRU&ab_channel=LyricalMuse-ic">iloveyou</a>' by BETWEEN FRIENDS."`);
 });
 
 $(".laptop").click(function() {
-    $(".dialogue").text("“I use my MacBook for classes, independent learning, and bingeing shows/movies! Some of my favorites to watch are Gone Girl, Howl's Moving Castle, Special A, Ouran High School Host Club, and Nana.”")
+    $(".dialogue").text("“I use my MacBook for classes, independent learning, and bingeing shows/movies like Special A, Ouran High School Host Club, and Nana!”")
 });
 
 $(".cat").click(function() {
@@ -97,19 +88,19 @@ $(".cat").click(function() {
 
 $(".winc").click(function() {
     $(".screen1").html('<div class="topic">Women in Computing Website</div><div class="thin">React.js, Next.js, Tailwind CSS, GitHub</div><div class="thin">October 2023 - December 2023</div>');
-    $(".screen2").html('<li>Developed a responsive website for Women in Computing at UCR to showcase club info</li><li>Identified recurring production inconsistencies caused by hardcoded event data; implemented dynamic component generation, removed 250+ lines of redundant code, and initiated a broader cleanup across the codebase</li>');
-    $(".screen3").html('<ul><li>Used GitHub Issues to organize work, and collaborated through weekly Agile scrum meetings</li><li>Focused on clean layout, accessibility, and responsive design to improve user experience for 50+ members</li></ul></div><a target="_blank" href="https://winc.cs.ucr.edu/"><img class="www" src="misc/www.png"/></a><a target="_blank" href="https://github.com/acm-ucr/winc-website"><img class="www bug" src="contact/gitcat.png"/></a></div>');
+    $(".screen2").html('<li>Developed a responsive website for Women in Computing at UCR to showcase club info</li><li>Used GitHub Issues to organize work, and collaborated through weekly Agile scrum meetings</li>');
+    $(".screen3").html('<ul><li>Identified recurring production inconsistencies caused by hardcoded event data; implemented dynamic component generation, removed 250+ lines of redundant code, and initiated a broader cleanup across the codebase</li></ul></div><a target="_blank" href="https://winc.cs.ucr.edu/"><img class="www" src="misc/www.png"/></a><a target="_blank" href="https://github.com/acm-ucr/winc-website"><img class="www bug" src="contact/gitcat.png"/></a></div>');
 });
 
 $(".hsp").click(function() {
     $(".screen1").html('<div class="topic">Highlander Space Program Website</div><div class="thin">React.js, Next.js, Tailwind CSS, GitHub</div><div class="thin">January 2024 - March 2024</div>');
-    $(".screen2").html('<li>Helped develop a static site for the Highlander Space Program to share projects, events, and contact info</li><li>Built a reusable Footer component with club logo, contact text, and social icons using a 2-column + 3-column nested grid layout in Tailwind</li>');
-    $(".screen3").html('<ul><li>Prioritized consistent design and reusability—this footer was used across all pages of the site</li></ul></div><a target="_blank" href="https://hsp.ucrhighlanders.org/"><img class="www" src="misc/www.png"/></a><a target="_blank" href="https://github.com/acm-ucr/hsp-website"><img class="www bug" src="contact/gitcat.png"/></a></div>');
+    $(".screen2").html('<li>Helped develop a static site for the Highlander Space Program to share projects, events, and contact info</li>');
+    $(".screen3").html('<ul><li>Built a reusable Footer component with club logo, contact text, and social icons using a 2-column + 3-column nested grid layout in Tailwind</li><li>Prioritized consistent design and reusability—this footer was used across all pages of the site</li></ul></div><a target="_blank" href="https://hsp.ucrhighlanders.org/"><img class="www" src="misc/www.png"/></a><a target="_blank" href="https://github.com/acm-ucr/hsp-website"><img class="www bug" src="contact/gitcat.png"/></a></div>');
 });
 
 $(".bear").click(function() {
-    $(".screen1").html('<div class="topic">BearCare (BearHack @ UCR)</div><div class="thin">React.js, Next.js, Tailwind CSS, GitHub</div><div class="thin">April 2024</div>');
-    $(".screen2").html('<li>Built the frontend UI for a hospital-locator app that helps users find hospitals covered by their insurance plans</li><li>Pair-programmed the reusable Provider component, mapping insurance names from centralized data for cleaner, scalable code</li>');
+    $(".screen1").html('<div class="topic">BearCare</div><div class="thin">React.js, Next.js, Tailwind CSS, GitHub</div><div class="thin">April 2024</div>');
+    $(".screen2").html('<li>Built the frontend UI for a hospital-locator app that helps users find hospitals covered by their insurance</li><li>Pair-programmed the reusable Provider component, mapping insurance plan names from centralized data for cleaner, scalable code</li>');
     $(".screen3").html('<ul><li>Set up the React/Next.js project from scratch and organized files for clarity and rapid iteration</li><li>Delivered a functional MVP frontend in under 24 hours, laying the groundwork for full-stack integration with map-based hospital search</li><li>Gained experience collaborating across the stack and aligning UI behavior with backend data handling and routing</li></ul><div><a target="_blank" href="https://devpost.com/software/bearcare-18lzch"><img class="www" src="misc/devpost.jpg"/></a><a target="_blank" href="https://github.com/aditithanekar/bearhack"><img class="www" src="contact/gitcat.png"/></a></div>');
 });
 
@@ -120,8 +111,8 @@ $(".cave").click(function() {
 });
 
 $(".qwer").click(function() {
-    $(".screen1").html('<div class="topic">Daily Dose (QWERHacks @ UCLA)</div><div class="thin">React.js, Next.js, Tailwind CSS, GitHub</div><div class="thin">February 2024</div>');
-    $(".screen2").html('<li>Built the frontend for a web app that lets users write and schedule time capsules to be sent to their future selves</li><li>Collaborated closely with teammates via GitHub and pair programming to ship a working MVP in 24 hours</li>');
+    $(".screen1").html('<div class="topic">Daily Dose</div><div class="thin">React.js, Next.js, Tailwind CSS, GitHub</div><div class="thin">February 2024</div>');
+    $(".screen2").html('<li>Built the frontend for a web app that lets users write and schedule time capsules to send to their future selves</li><li>Collaborated closely with teammates via GitHub and pair programming to ship a working MVP in 24 hrs</li>');
     $(".screen3").html('<ul><li>Won "Best Beginner" and "Best Use of MongoDB" at QWERHacks at UCLA 2024, Major League Hacking\'s first collegiate LGBTQ+ hackathon</li></ul><div><a target="_blank" href="https://devpost.com/software/daily-dose-7ks69p"><img class="www" src="misc/devpost.jpg"/></a></div>');
 });
 

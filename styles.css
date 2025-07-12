@@ -21,7 +21,7 @@ body {
 p {
     color: #5A4742;
     font-size: 14px;
-    font-family: "Noto Sans", system-ui;
+    font-family: "Nunito", sans-serif;
     font-weight: normal;
     display: inline;
 }
@@ -181,7 +181,7 @@ p {
     margin-bottom: 10px; 
 }
 
-.cat:hover, .laptop:hover, .headphones:hover, .play:hover, .girl:hover, .quest-point:hover {
+.cat:hover, .laptop:hover, .headphones:hover, .play:hover, .quest-point:hover {
     transform: scale(1.05);
     opacity: 0.8;
     cursor: pointer;
@@ -219,7 +219,7 @@ p {
 .name {
     color: #FF6B81;
     font-size: 18px;
-    font-family: "Palatino Linotype", "Palatino", serif;
+    font-family: "Nunito", sans-serif;
     font-weight: bold;
     padding-top: 10px;
     padding-left: 115px;
@@ -228,7 +228,7 @@ p {
 
 .dialogue {
     font-size: 14px;
-    font-family: "Noto Sans", system-ui;
+    font-family: "Nunito", sans-serif;
     padding-left: 115px;
     color: #5A4742;
     font-weight: 400;
@@ -304,7 +304,7 @@ p {
     grid-column: 2;
     grid-row: 1;
     color:#FFF3E6;
-    font-family: "Georgia", serif-sans;
+    font-family: "Nunito", sans-serif;
     font-size: 20px;
     font-weight: 400;
 }
@@ -336,7 +336,7 @@ p {
 .title {
     color: #FF6B81;
     font-size: 50px;
-    font-family: "Yeseva One", serif;
+    font-family: "Baloo 2", sans-serif;
     font-style: normal;
     font-weight: bold;
     grid-column: 1;
@@ -386,7 +386,7 @@ p {
 }
 
 .skills-text {
-  font-family: "Noto Sans", system-ui;
+  font-family: "Nunito", sans-serif;
   font-size: 14px;
   color: #5A4742;
   line-height: 1.6;
@@ -488,17 +488,8 @@ p {
   margin: 25px;
   color: #5A4742;
   font-size: 14px;
-  font-family: "Noto Sans", system-ui;
+  font-family: "Nunito", sans-serif;
   font-weight: normal;
-}
-
-.topic {
-  font-weight: bold;
-  font-size: 24px;
-  color: #FF6B81;
-  margin-bottom: 8px;
-  font-family: "Pixelify Sans", sans-serif;
-  transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .topic:hover {
@@ -534,7 +525,7 @@ ul {
     margin: 25px;
     color: #5A4742;
     font-size: 14px;
-    font-family: "Noto Sans", system-ui;
+    font-family: "Nunito", sans-serif;
     font-weight: normal;
 }
 
@@ -543,7 +534,7 @@ ul {
     font-size: 24px;
     color:#FF6B81;
     margin-bottom: 8px;
-    font-family: "Palatino Linotype", "Palatino", serif
+    font-family: "Nunito", sans-serif;
 }
 
 .outer {
@@ -733,7 +724,7 @@ ul {
     gap: 20px;
     color: #5A4742;
     font-size: 12px;
-    font-family: "Noto Sans", system-ui;
+    font-family: "Nunito", sans-serif;
     font-weight: normal;
     margin-top: 100px;
     margin-bottom: 10px;
@@ -744,7 +735,7 @@ ul {
     gap: 20px;
     color: black;
     font-size: 12px;
-    font-family: "Noto Sans", system-ui;
+    font-family: "Nunito", sans-serif;
     font-weight: normal;
     position: fixed;
     z-index: 1000;
@@ -768,7 +759,7 @@ a {
 footer {
     color: #5A4742;
     font-size: 12px;
-    font-family: "Noto Sans", system-ui;
+    font-family: "Nunito", sans-serif;
     font-weight: normal;
     display: inline;
 }
