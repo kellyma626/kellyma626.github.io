@@ -817,14 +817,6 @@ footer {
     display: none;
   }
 
-  .prettypics6 {
-    display: none;
-  }
-
-  .contact-grid {
-    display: none;
-}
-
 .container, .typed-out, .title {
   max-width: 100%;
   width: 100%;
@@ -871,7 +863,6 @@ footer {
   transform: translate(0px, -15px);
   z-index: 5;
 }
-
 
 .prettypics6 {
   height: 230px;
