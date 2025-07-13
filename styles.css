@@ -869,7 +869,7 @@ footer {
 }
 }
 
-@media (max-width: 600) {
+@media (max-width: 600px) {
   .prettypics6 {
     height: 180px;
   }
