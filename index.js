@@ -75,7 +75,7 @@ $(".quest-point").click(function() {
 });
 
 $(".headphones").click(function() {
-    $(".dialogue").html(`"I love music. I’ve played the clarinet and guitar! Currently, my favorite song is '<a target="_blank" href="https://www.youtube.com/watch?v=2s3KNE_9qRU&ab_channel=LyricalMuse-ic">iloveyou</a>' by BETWEEN FRIENDS."`);
+    $(".dialogue").html(`"I love music. I’ve played the clarinet and guitar! Currently, my favorite song is '<a target="_blank" href="https://www.youtube.com/watch?v=2s3KNE_9qRU&ab_channel=LyricalMuse-ic" style="font-weight: bold;">iloveyou</a>' by BETWEEN FRIENDS."`);
 });
 
 $(".laptop").click(function() {
