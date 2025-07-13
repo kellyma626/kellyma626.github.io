@@ -860,10 +860,6 @@ footer {
     display: none;
   }
 
-  .prettypics6 {
-    height: 190px;
-  }
-
 .container, .typed-out, .title {
   max-width: 100%;
   width: 100%;
@@ -871,6 +867,12 @@ footer {
   overflow-wrap: break-word;
   word-break: break-word;
 }
+}
+
+@media (max-width: 600) {
+  .prettypics6 {
+    height: 180px;
+  }
 }
 
 .art-gallery-wrapper {
