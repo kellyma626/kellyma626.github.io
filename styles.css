@@ -804,29 +804,6 @@ footer {
   }
 }
 
-@media (max-width: 1024px) {
-  .intro {
-    text-align: start;
-  }
-
-  .music {
-    display: none;
-  }
-
-  .omori {
-    display: none;
-  }
-
-.container, .typed-out, .title {
-  max-width: 100%;
-  width: 100%;
-  white-space: normal;
-  overflow-wrap: break-word;
-  word-break: break-word;
-}
-
-}
-
 .gallery-flex {
   display: flex;
   justify-content: start;
@@ -868,6 +845,32 @@ footer {
   height: 230px;
   transform: translate(-140px, 70px);
   z-index: 5;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    text-align: start;
+  }
+
+  .music {
+    display: none;
+  }
+
+  .omori {
+    display: none;
+  }
+
+  .prettypics6 {
+    height: 200px;
+  }
+
+.container, .typed-out, .title {
+  max-width: 100%;
+  width: 100%;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
 }
 
 .art-gallery-wrapper {
