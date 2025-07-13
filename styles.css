@@ -967,6 +967,7 @@ footer {
   user-select: none;
   transition: background 0.3s ease;
   z-index: 10;
+  color: #5A4742;
 }
 .art-gallery-btn:hover {
   background: #FFAC8A;
