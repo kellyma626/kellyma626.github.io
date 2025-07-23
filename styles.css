@@ -1042,3 +1042,16 @@ footer {
     margin-left: 70px;
   }
 }
+
+@media (min-width: 1440px) {
+  .art-gallery-wrapper,
+  .outer,
+  .room-box,
+  .contact-grid,
+  .game,
+  .rounded-box,
+  .pic2 {
+    border-width: 2px;
+  }
+}
+
