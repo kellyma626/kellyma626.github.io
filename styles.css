@@ -1044,9 +1044,9 @@ footer {
 }
 
 @media (min-width: 1440px) {
-  .art-gallery-wrapper,
   .outer,
   .room-box,
+  .omori,
   .contact-grid,
   .game,
   .rounded-box,
