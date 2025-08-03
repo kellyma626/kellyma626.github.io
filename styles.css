@@ -27,9 +27,8 @@ p {
 }
 
 .pink-space {
-    color: #FF6B81;
+    color: #ff536d;
     font-weight: bold;
-    font-size: 14px;
 }
 
 .mood {
@@ -734,7 +733,7 @@ ul {
     display: flex;
     gap: 20px;
     color: black;
-    font-size: 12px;
+    font-size: 14px;
     font-family: "Nunito", sans-serif;
     font-weight: normal;
     position: fixed;
