@@ -107,7 +107,13 @@ $(".bear").click(function() {
 $(".cave").click(function() {
     $(".screen1").html('<div class="topic">Cave Adventure RPG</div><div class="thin">C++, GoogleTest, GitHub, Valgrind, GDB, Gcov, Lcov</div><div class="thin">October 2024 - December 2024</div>');
     $(".screen2").html('<li>Collaborated with a team of 5 to build a turn-based RPG game in C++ from scratch using Agile workflows and weekly scrums</li><li>Designed an abstract Item class and implemented Potion and Weapon subclasses to support flexible in-game item behavior using polymorphism</li>');
-    $(".screen3").html('<ul><li>Developed a vector-based inventory system that managed Item* pointers with dynamic memory handling, custom destructors, and safe removal logic</li><li>Wrote 20+ unit tests with GoogleTest and integrated continuous testing using GitHub Actions and CMake</li></ul><div><a target="_blank" href="https://github.com/kellyma073/rpg-cave-game"><img class="www" src="contact/gitcat.png"/></a></div>');
+    $(".screen3").html('<ul><li>Developed a vector-based inventory system that managed Item* pointers with dynamic memory handling, custom destructors, and safe removal logic</li><li>Wrote 20+ unit tests with GoogleTest and integrated continuous testing using GitHub Actions and CMake</li></ul><div><a target="_blank" href="https://github.com/kellyma626/rpg-cave-game"><img class="www" src="contact/gitcat.png"/></a></div>');
+});
+
+$(".cutie").click(function() {
+  $(".screen1").html('<div class="topic">cutieMood</div><div class="thin">React Native, Expo, TypeScript, NativeWind, Supabase, Gemini API, Figma</div><div class="thin">July 2025 - August 2025</div>');
+  $(".screen2").html('<li>Spearheaded the project vision and technical execution, architecting key features including mood tracking, journaling, and AI chatbot integration, while driving problem-solving and debugging</li>');
+  $(".screen3").html('<ul><li>Designed all 5 screens, creating a cohesive, playful mobile UI with custom mood-to-image/color mappings.</li><li>Implemented Supabase flows for async mood entry creation and retrieval, managing 120+ entries seamlessly</li></ul><div><a target="_blank" href="https://github.com/kellyma626/cutieMood"><img class="www" src="contact/gitcat.png"/></a></div>');
 });
 
 $(".qwer").click(function() {
